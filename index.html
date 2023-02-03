@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function changeText() {
+        document.getElementById("text1").innerHTML = "Hello World";
+        document.getElementById("text2").innerHTML = "Hello World Again!";
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="text1">Click the button to change the text:</h1>
+    <button onclick="changeText()">Click me</button>
+    <h1 id="text2">Now click the other button to change the text:</h1>
+    <button onclick="changeText()">Click me</button>
+  </body>
+</html>
